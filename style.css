@@ -1,0 +1,47 @@
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+main {
+   flex: 1 0 auto;
+}
+
+blockquote {
+border-left: 5px solid #8bc34a;
+}
+
+h4 {
+    margin: 0.2rem 0 .912rem 0;
+}
+
+h5 {
+    line-height: 130%;
+}
+
+body > footer > div.container > div {
+margin-bottom: 0px;
+}
+
+.background {
+    background-image: url("header_2.png");
+    background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.card {
+	border-radius: 10px;
+}
+
+a {
+    color: #05460f;
+}
+
+#content > div > div:nth-child(4) > div > table > tbody > tr > td:nth-child(2) > div > iframe{
+	min-height: 250px;
+}
+
+#content > div > div:nth-child(4) > div.col.s8.offset-s2.hide-on-large-only > div:nth-child(2) > div > iframe{
+	min-height: 200px;
+}
